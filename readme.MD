@@ -16,8 +16,9 @@
 
 ## merge master into dev branch in local when there are no conflicts
 
-1. git checkout master  ( set the current branch to master -in this case merging to master)
-2. git merge dev
+1. git pull  ( to pull lastest code from github) 
+2. git checkout dev  ( set the current branch to master -in this case merging to master)
+3. git merge master
 
 ## overwite dev with code in master - old dev code is gone
 
