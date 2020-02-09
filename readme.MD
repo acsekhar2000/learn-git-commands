@@ -10,7 +10,7 @@
 
 ## get the specific branch code to local.
 
-1. cd directory-name-here (navigate to the directory where you want the code to be copied. The below command will create a directory)
+1. cd <directory-name-here> (navigate to the directory where you want the code to be copied. The below command will create a directory)
 2. git clone -b <branch-name> git@github.com:acsekhar2000/learn-git-commands.git
 3. cd learn-git-commands ( and use ls to see the code that is down loaded)
 
