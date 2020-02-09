@@ -1,6 +1,6 @@
 # This repo is just to learn git commands - master
 
-## get the code to local 
+## get code to local 
 
 1. cd directory-name-here (navigate to the directory where you want the code to be copied. The below command will create a directory)
 2. git clone git@github.com:acsekhar2000/learn-git-commands.git
@@ -8,11 +8,18 @@
 
 (All branches will be pulled to local and the default branch will be set to, usually master.)
 
-## get the specific branch code to local.
+## get code to local and set a specific branch to default.
 
 1. cd directory-name-here (navigate to the directory where you want the code to be copied. The below command will create a directory)
-2. git clone -b <branch-name> git@github.com:acsekhar2000/learn-git-commands.git
+2. git clone -b branch-name git@github.com:acsekhar2000/learn-git-commands.git
 3. cd learn-git-commands ( and use ls to see the code that is down loaded)
+
+## merge two branches in local when there are no conflicts
+
+1. git checkout master  ( set the current branch to master -in this case merging to master)
+2. git merge branch-name
+
+
 
 
 
