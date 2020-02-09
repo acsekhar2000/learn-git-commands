@@ -14,17 +14,17 @@
 2. git clone -b branch-name git@github.com:acsekhar2000/learn-git-commands.git
 3. cd learn-git-commands ( and use ls to see the code that is down loaded)
 
-## merge two branches in local when there are no conflicts
+## merge master into dev branch in local when there are no conflicts
 
 1. git checkout master  ( set the current branch to master -in this case merging to master)
-2. git merge branch-name
+2. git merge dev
 
-## overwite old_branch with code in new_branch - old branch code is gone
+## overwite dev with code in master - old dev code is gone
 
-1. git checkout new_branch
-2. git merge -s ours old_branch
-3. git checkout old_branch
-4. git merge new_branch
+1. git checkout master
+2. git merge -s ours dev
+3. git checkout dev
+4. git merge master
 
 
 
