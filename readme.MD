@@ -1,4 +1,4 @@
-# This repo is just to learn git commands
+# This repo is just to learn git commands - master
 
 ## get the code to local 
 
