@@ -19,7 +19,12 @@
 1. git checkout master  ( set the current branch to master -in this case merging to master)
 2. git merge branch-name
 
+## overwite old_branch with code in new_branch
 
+1. git checkout new_branch
+2. git merge -s ours old_branch
+3. git checkout old_branch
+4. git merge new_branch
 
 
 
