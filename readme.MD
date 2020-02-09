@@ -1,9 +1,9 @@
 # This repo is just to learn git commands
 ## When repo already exists - how to get the code to local.
 
-1.   navigate to the directory where you want the code to be copied. The below command will create a directory.
-   1.   cd directory-name-here
-2.   git clone git@github.com:acsekhar2000/learn-git-commands.git
+1. navigate to the directory where you want the code to be copied. The below command will create a directory.
+   1. cd directory-name-here
+2. git clone git@github.com:acsekhar2000/learn-git-commands.git
 
 
 
