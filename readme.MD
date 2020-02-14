@@ -20,12 +20,12 @@
 2. git checkout dev  ( set the current branch to master -in this case merging to master)
 3. git merge master
 
-## overwite dev with code in master - old dev code is gone
+## overwite stage with code in dev - old dev code is gone
 
-1. git checkout master
-2. git merge -s ours dev
-3. git checkout dev
-4. git merge master
+1. git checkout dev
+2. git merge -s ours stage
+3. git checkout stage
+4. git merge dev
 
 
 
