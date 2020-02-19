@@ -27,6 +27,10 @@
 3. git checkout stage
 4. git merge dev
 
+## complete overwite stage with code in dev - stage code is gone
+A complete overwrite isn't merging the other content, it's abandoning it.
+
+git checkout -B master anotherbranch
 
 
 
