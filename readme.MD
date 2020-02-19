@@ -35,20 +35,24 @@ git checkout -B stage dev
 ## overwrite master with staging
 
 #### Rename master to old-master, staging to master
+
 $ (staging) git checkout master
 $ (master) git branch -m old-master
 $ (old-master) git checkout staging
 $ (staging) git branch -m master
 
 #### Force push staging (now master) into remote master
+
 $ (master) git push origin master -f
 
 #### Change branch names back to original
+
 $ (master) git branch -m staging
 $ (staging) git checkout old-master
 $ (old-master) git branch -m master
 
 #### Sync local master with remote master
+
 $ (master) git fetch --all
 $ (master) git reset --hard origin/master
 
