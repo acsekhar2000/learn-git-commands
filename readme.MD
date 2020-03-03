@@ -66,3 +66,15 @@ $ (master) git reset --hard origin/master
 5. git remote add origin git@github.com:acsekhar2000/arjun-test01.git  
 6. git push -u origin master 
 
+## Clone remote repository and all branches
+
+git clone --mirror https://github.com/test/frontend.git frontend/.git
+
+### Change into frontend directory
+cd frontend
+
+### Update git config
+git config --unset core.bare
+
+### Checkout master branch
+git checkout master
