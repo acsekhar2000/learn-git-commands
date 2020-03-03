@@ -68,13 +68,7 @@ $ (master) git reset --hard origin/master
 
 ## Clone remote repository and all branches
 
-git clone --mirror https://github.com/test/frontend.git frontend/.git
-
-### Change into frontend directory
-cd frontend
-
-### Update git config
-git config --unset core.bare
-
-### Checkout master branch
-git checkout master
+1. git clone --mirror https://github.com/test/frontend.git frontend/.git
+2. cd frontend
+3. git config --unset core.bare
+4. git checkout master
